@@ -20,6 +20,14 @@ In small groups, draw an example on the blackboard (of your own invention) of a 
 
 Then, draw the decision tree corresponding to this partition. Be sure to label all aspects of your figures, including the regions, the splitting points, and so forth.
 
+Take a picture of the blackboard and include it in the R chunk below (make sure to change `eval` from `false` to `true` once you've added your image): 
+
+```{r}
+#| eval: false
+knitr::include_graphics("path/to/image.png")
+```
+
+
 ## Problem 2: Comparing Regression Models with `College` Data
 
 For this exercise, we will use the `College` data from the ISLR2 package. Familiarize yourself with this dataset before performing analysis. We will attempt to predict the `Outstate` variable, which indicates the college's out-of-state tuition rate in 1995. Load the data with the following code:
